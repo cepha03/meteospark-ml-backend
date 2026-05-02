@@ -10,7 +10,7 @@ app = Flask(__name__)
 CORS(app, resources={r"/predict": {
     "origins": [
         "http://localhost:5173", 
-        "https://meteospark-synoptic-app.vercel.app/ 
+        "https://meteospark-synoptic-app.vercel.app/" 
     ]
 }})
 
